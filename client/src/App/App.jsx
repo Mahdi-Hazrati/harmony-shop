@@ -3,20 +3,24 @@ import {
   RouterProvider
 } from "react-router-dom"
 
+import Home from "../pages/Home/Home"
+import Product from "../pages/Product/Product"
+import Products from "../pages/Products/Products"
+
 import './App.css';
 
 const routersArray = createBrowserRouter([
   {
     path:"/",
-    element: <div>Home</div>
+    element: <Home />
   },
   {
     path:"/products/:id",
-    element: <div>Category</div>
+    element: <Products />
   },
   {
     path:"/product/:id",
-    element: <div>Product</div>
+    element: <Product />
   },
 ])
 
