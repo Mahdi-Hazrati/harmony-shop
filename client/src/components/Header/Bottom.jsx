@@ -10,6 +10,7 @@ const Bottom = () => {
         <li>محصول شماره سه</li>
         <li>محصول شماره چهار</li>
         <li>محصول شماره پنج</li>
+        <a href="/dashboard">برو به داشبورد</a>
       </DropdownMenu>
       <DropdownMenu title="گوشی">
         <li>محصول شماره یک</li>
