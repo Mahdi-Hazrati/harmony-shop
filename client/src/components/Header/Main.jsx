@@ -14,7 +14,7 @@ const Main = () => {
         </div>
       </Link>
       <div className="search-box">
-        <input type="text" className="search-box-input" />
+        <input type="text" className="search-box-input" placeholder="محصول مورد نظر را جست و جو کنید ..." />
         <AiOutlineSearch className="search-box-icon" />
       </div>
       <div className="user-account">
