@@ -1,0 +1,51 @@
+.header-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    .left, .right{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .vertical-line-sm{
+            width: 1px;
+            height: 16px;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+
+        }
+        .item{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+            font-weight: lighter;
+            direction: ltr;
+            font-size: 14px;
+
+            &:hover{
+                text-decoration: underline;
+            }
+            .icon{
+                font-size: 18px;
+                color: forestgreen;
+            }
+
+            .flag-icon{
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+    .left{
+        .item:hover{
+            text-decoration: unset;
+            cursor: unset;
+        }
+    }
+}
