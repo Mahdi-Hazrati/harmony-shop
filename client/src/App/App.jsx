@@ -1,11 +1,13 @@
 import {
   createBrowserRouter,
-  RouterProvider
+  RouterProvider,
+  Outlet
 } from "react-router-dom"
 
 import Home from "../pages/Home/Home"
 import Product from "../pages/Product/Product"
 import Products from "../pages/Products/Products"
+import Dashboard from "../pages/Dashboard/Dashboard"
 
 import './App.css';
 
@@ -21,6 +23,10 @@ const routersArray = createBrowserRouter([
   {
     path:"/product/:id",
     element: <Product />
+  },
+  {
+    path:"/dashboard",
+    element: <Dashboard />
   },
 ])
 
