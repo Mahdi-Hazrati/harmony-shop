@@ -8,8 +8,7 @@ import Product from "../pages/Product/Product"
 import Products from "../pages/Products/Products"
 import Dashboard from "../pages/Dashboard/Dashboard"
 import Layout from "./Layout"
-
-import './App.css';
+import './App.scss';
 
 const routersArray = createBrowserRouter([
   {

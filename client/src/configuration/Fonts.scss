@@ -1,0 +1,16 @@
+@font-face {
+    font-family: vazirmatn;
+    src: url("../assets/fonts/Vazirmatn/webfonts/Vazirmatn-Regular.woff2");
+}
+@font-face {
+    font-family: vazirmatn-FD;
+    src: url("../assets/fonts/Vazirmatn/webfonts-FD/Vazirmatn-FD-Regular.woff2");
+}
+
+body{
+    font-family:"vazirmatn-FD";
+    font-size: 16px;
+}
+input, input::placeholder{
+    font-family:"vazirmatn-FD";
+}
