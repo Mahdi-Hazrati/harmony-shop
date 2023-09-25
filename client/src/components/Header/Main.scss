@@ -3,4 +3,32 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    .brand-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+        
+        .brand-logo{
+            width: 44px;
+            height: 44px;
+            object-fit: contain;
+            user-select: none;
+            -webkit-user-drag: none;
+
+        }
+        .brand-title{
+            width: 44px;
+            height: 44px;
+            font-weight: normal;
+            font-size: 14px;
+            user-select: none;
+            cursor: unset;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
 }

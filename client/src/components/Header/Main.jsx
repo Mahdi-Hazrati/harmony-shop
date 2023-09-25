@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import logo_image from "../../assets/images/harmony-shop-logo.svg"
 import { AiOutlineSearch, AiOutlineShopping, AiOutlineUser } from "react-icons/ai"
 import { IoIosArrowDown } from "react-icons/io"
@@ -6,10 +7,12 @@ import "./Main.scss"
 const Main = () => {
   return (
     <div className="header-main">
-      <div className="brand">
-        <img src={logo_image} alt="harmony shop logo" className="brand-logo" />
-        <span className="brand-title">هارمونی شاپ</span>
-      </div>
+      <Link to={"/"}>
+        <div className="brand-container">
+          <img src={logo_image} alt="harmony shop logo" className="brand-logo" />
+          <span className="brand-title">فروشگاه<br /> هارمونی</span>
+        </div>
+      </Link>
       <div className="search-box">
         <input type="text" className="search-box-input" />
         <AiOutlineSearch className="search-box-icon" />
