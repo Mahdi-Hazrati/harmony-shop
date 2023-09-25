@@ -1,5 +1,10 @@
-.header-bottom{
+.header-bottom {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0px 200px;
+    gap: 24px;
 }

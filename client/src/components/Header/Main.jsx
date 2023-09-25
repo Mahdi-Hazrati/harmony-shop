@@ -6,15 +6,15 @@ import "./Main.scss"
 const Main = () => {
   return (
     <div className="header-main">
-      <div className="brand-container">
+      <div className="brand">
         <img src={logo_image} alt="harmony shop logo" className="brand-logo" />
         <span className="brand-title">هارمونی شاپ</span>
       </div>
-      <div className="search-box-container">
+      <div className="search-box">
         <input type="text" className="search-box-input" />
         <AiOutlineSearch className="search-box-icon" />
       </div>
-      <div className="user-account-container">
+      <div className="user-account">
         <div className="right">
           <AiOutlineUser className="icon" />
         </div>
@@ -28,7 +28,7 @@ const Main = () => {
         </div>
 
       </div>
-      <div className="shopping-cart-container">
+      <div className="shopping-cart">
         <AiOutlineShopping className="icon" />
         <div className="counter">5</div>
       </div>
