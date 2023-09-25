@@ -13,9 +13,7 @@
         .vertical-line-sm{
             width: 1px;
             height: 16px;
-            background-color: rgba(0, 0, 0, 0.4);
-            border-radius: 10px;
-
+            background-color: var(--gray-200);
         }
         .item{
             display: flex;
@@ -33,7 +31,7 @@
             }
             .icon{
                 font-size: 18px;
-                color: forestgreen;
+                color: var(--primary);
             }
 
             .flag-icon{
