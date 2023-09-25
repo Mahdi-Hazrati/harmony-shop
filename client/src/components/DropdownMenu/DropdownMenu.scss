@@ -11,6 +11,7 @@
         cursor: pointer;
         user-select: none;
         position: relative;
+        padding: 10px 0px;
     }
     .list {
         // ------------- //
@@ -20,7 +21,7 @@
         flex-direction: column;
         gap: 10px;
         position: absolute;
-        top: 32px;
+        top: 48px;
         background-color: var(--black);
         padding: 10px 5px;
         border-radius: 0px 0px var(--border-radius-md) var(--border-radius-md);
