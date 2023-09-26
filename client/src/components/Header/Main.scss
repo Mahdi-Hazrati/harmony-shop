@@ -1,17 +1,16 @@
 .header-main {
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    // remove this
-    margin-bottom: 50vh;
     .vertical-line-sm{
         align-items: flex-start;
         width: 1px;
         height: 16px;
         background-color: var(--gray-200);
     }
-    // remove this
+    // Brand Logo Container
     .brand-container {
         display: flex;
         justify-content: center;
@@ -38,6 +37,7 @@
             align-items: center;
         }
     }
+    // search input container
     .search-box {
         width: 400px;
         height: 40px;
@@ -53,6 +53,7 @@
             height: 100%;
             font-size: 14px;
             padding: 0 20px;
+            background-color: transparent;
         }
         .search-box-icon {
             flex: 1;
@@ -66,7 +67,7 @@
             }
         }
     }
-    // User Accounts
+    // User Accounts container
     .user-account {
         display: flex;
         flex-direction: row;
@@ -111,6 +112,44 @@
                     color: var(--white);
                 }
             }
+        }
+    }
+    // shopping cart container
+    .shopping-cart{
+        width:50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: var(--border-radius-sm);
+        user-select: none;
+
+        &:hover{
+            cursor: pointer;
+        }
+        .cart-icon{
+            width: 25px;
+            height: 25px;
+            color: var(--gray-400);
+            
+        }
+        .product-counter{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: var(--danger);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            padding: 10px;
+            // display: none;
+            font-size: 12px;
+            top: 4px;
+            right: 2px;
+            color: var(--white);
+
         }
     }
 }

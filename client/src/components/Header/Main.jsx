@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import logo_image from "../../assets/images/harmony-shop-logo.svg"
-import { AiOutlineSearch, AiOutlineShopping, AiOutlineUser } from "react-icons/ai"
+import { AiOutlineSearch, AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai"
 import DropdownMenu from "../../components/DropdownMenu/DropdownMenu"
 import { IoIosArrowDown } from "react-icons/io"
 import "./Main.scss"
@@ -32,8 +32,8 @@ const Main = () => {
         </DropdownMenu>
       </div>
       <div className="shopping-cart">
-        <AiOutlineShopping className="icon" />
-        <div className="counter">5</div>
+        <AiOutlineShoppingCart className="cart-icon" />
+        <div className="product-counter">15</div>
       </div>
 
     </div>
